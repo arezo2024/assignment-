@@ -1,0 +1,154 @@
+body {
+    background-color: #515A5A;
+}
+header {
+    background-color: white;
+    font-size: 40px;
+    font-width: bold;
+    text-align: center;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+nav {
+    background-color: skyblue;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-right: 10px;
+    width: 80px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: pink;
+    transition: 2s;
+}
+
+nav img {
+    margin-right: auto
+}
+.container {
+    Width: 780px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkSalmon;
+    margin-top: 70px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+.product-image {
+    width: 400px;
+}
+.product-image img {
+    width: 100%;
+    object-fit:fill;
+}
+.product-details{
+    width: 400px;
+}
+.caption{
+    width: 300px;
+    background-color: lavender;
+    color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.related-product {
+    width: 180px;
+    background-color: lavender;
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.related-product img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.related-product-name {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    visibility: hidden;
+}
+
+.related-product:cover  .related-product-name{
+    visibility: visible;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.main-img {
+    padding: relative;
+}
+
+.main-img img {
+    width: 100%;
+}
+.main-caption {
+    width: 300px;
+    border: 3px solid black;
+    background-color: #515A5A;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: absolute;
+    top:0;
+    right:0;
+    visibility: hidden;
+}
+
+.main-img:cover  .main-caption {
+    visibility: visible;
+}
+
+.numbers {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numbers img {
+    width: 100%;
+    height: 250px;
+    height-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px yellow;
+}
+.numbers:h3-p{
+    text-align: center;
+}
